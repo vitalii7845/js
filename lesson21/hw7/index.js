@@ -3,4 +3,4 @@ export const createButton = (buttonText) => {
   newButton.textContent = `${buttonText}`;
   document.querySelector('body').append(newButton);
 };
-createButton('Press button now');
+// createButton('Press button now');
