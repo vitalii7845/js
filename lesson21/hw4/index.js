@@ -4,10 +4,8 @@
 //   findElement.textContent = `${text}`;
 // }
 
-function setTitle(text) {
+export function setTitle(text) {
   document.querySelector('.title').textContent = `${text}`;
 }
 
 setTitle('Hello bro');
-
-export { setTitle };
