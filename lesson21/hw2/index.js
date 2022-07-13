@@ -5,7 +5,7 @@ export function getItemsList() {
 }
 
 export function getItemsArray() {
-  const selectElements = document.querySelectorAll('.technology');
+  const selectElements = document.querySelectorAll('.tool');
   const selectElementsArr = Array.from(selectElements);
   console.dir(selectElementsArr);
   return selectElementsArr;
