@@ -7,4 +7,4 @@ export function manageClasses() {
     fourElement.classList.add('another-class');
   }
 }
-manageClasses();
+// manageClasses();
