@@ -7,4 +7,4 @@ export function finishForm() {
   const passwInp = document.querySelector('[name="password"]');
   passwInp.type = 'password';
 }
-finishForm();
+// finishForm();
